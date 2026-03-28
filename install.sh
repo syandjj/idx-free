@@ -19,11 +19,11 @@ export ARGO_AUTH="eyJhIjoiMzg4OWViZTEzMzY4MThiYzA0YzM1Y2Y5OTQxZjczNDUiLCJ0IjoiZj
 
 # --- 其他配置 ---
 export NAME="idx"               # 节点名称
-export CFIP="www.visa.com.tw" # 优选 IP 或优选域名
+export CFIP="cf.877774.xyz" # 优选 IP 或优选域名
 export CFPORT=443               # 优选 IP 或优选域名对应端口
 export CHAT_ID=""               # Telegram Chat ID
 export BOT_TOKEN=""             # Telegram Bot Token。需要同时填写 Chat ID 才会推送节点到 Telegram
-export UPLOAD_URL=              # 节点自动推送到订阅器，需要填写部署 merge-sub 项目后的首页地址，例如：https://merge.eooce.ggff.net
+export UPLOAD_URL=https://jj.sylj.dpdns.org/jiao              # 节点自动推送到订阅器，需要填写部署 merge-sub 项目后的首页地址，例如：https://merge.eooce.ggff.net
 
 # --- 执行主部署脚本 ---
 # 这会下载并执行远程的 sb.sh 脚本，并使用上面设置的环境变量
